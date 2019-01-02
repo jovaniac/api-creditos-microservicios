@@ -78,7 +78,7 @@ dependencyManagement {
 task createDockerfile(type: com.bmuschko.gradle.docker.tasks.image.Dockerfile) {
   destFile = project.file('build/libs/Dockerfile')
   from 'openjdk:8u151-jre-slim'
-  maintainer 'jovani.arzate@elektra.com.mx"'
+  maintainer 'jovaniac@gmail.com'
   copyFile 'servicio-creditos.jar', '/opt/servicio-creditos.jar'
 
   exposePort 8082
