@@ -17,7 +17,7 @@ spec:
         - name: servicio-creditos
           image: jovaniac/servicio-creditos:0.0.1-snapshot
           ports:
-            - containerPort: 8082
+            - containerPort: 8081
               protocol: TCP
 
               

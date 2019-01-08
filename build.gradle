@@ -81,7 +81,7 @@ task createDockerfile(type: com.bmuschko.gradle.docker.tasks.image.Dockerfile) {
   maintainer 'jovaniac@gmail.com'
   copyFile 'servicio-creditos.jar', '/opt/servicio-creditos.jar'
 
-  exposePort 8082
+  exposePort 8081
   entryPoint 'java', "-Djava.awt.headless=true", "-Xms256m", "-Xmx256m", '-jar', '/opt/servicio-creditos.jar'
 }
 

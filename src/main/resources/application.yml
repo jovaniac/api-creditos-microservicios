@@ -1,6 +1,6 @@
 server:  
-  port: ${PORT:8082}
-#management.port: 8082 spring boot admin
+  port: ${PORT:8081}
+#management.port: 9091 spring boot admin
 
 spring:  
   application:
